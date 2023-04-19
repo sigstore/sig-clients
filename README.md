@@ -26,7 +26,7 @@ sig-clients doesn't exclusively own most of these, but you may be interested:
   - Python: [sigstore-python](https://github.com/sigstore/sigstore-python)
   - Ruby: [sigstore-ruby](https://github.com/sigstore/sigstore-ruby)
   - Rust: [sigstore-rs](https://github.com/sigstore/sigstore-rs)
-[policy-controller](https://github.com/sigstore/policy-controller)
+- [policy-controller](https://github.com/sigstore/policy-controller)
 
 ## Get Involved
 
@@ -45,7 +45,7 @@ We welcome contributions from all! Great ways to help include:
 - Sigstore Java (weekly; [notes](https://docs.google.com/document/d/1R7mL-IUrc2Z_LuOIvwDWshVuPQS_2VNE_cIQx4Oy5zw/edit))
 - Sigstore Golang (biweekly; [notes](https://docs.google.com/document/d/1EcJIhqSS9E86cHAQXaXiu2_r1s0kNbHz4uLLwwGo-vw/edit#heading=h.td0phy2bwk06))
 
-**Slack.** We also communicate on [Slack](https://links.sigstore.dev/slack-invite). Channels that might be of interest include: `#clients`, `#java`, `#ruby-gems`, `#sigstore-rust`, `#sigstore-go`, `#cosign`.
+**Slack.** We also communicate on [Slack](https://links.sigstore.dev/slack-invite). Channels that might be of interest include: `#clients`, `#java`, `#ruby-gems`, `#sigstore-rust`, `#sigstore-go`, `#cosign`, `#gitsign`.
 
 ## Governence
 
@@ -62,8 +62,8 @@ Last updated: 2023-04-17. See also [project-wide roadmap](https://github.com/sig
 **Short-term (months).**
 
 Goal: focusing on Cosign in the near-term as the most widely-used client. If
-other clients like what we're doing there, they can emulate it. Document
-expectations for clients.
+other clients like what we're doing there, they can emulate it (assuming that
+it's in-scope for the client). Document expectations for clients.
 
 - Tech debt: Cosign refactor, port innards to sigstore-go ([cosign#2462](https://github.com/sigstore/cosign/issues/2462), [cosign#844](https://github.com/sigstore/cosign/issues/844))
 - Bundles ([cosign#2131](https://github.com/sigstore/cosign/issues/2131))
@@ -73,6 +73,7 @@ expectations for clients.
   - [Clearer verification options](https://github.com/sigstore/cosign/issues/2648)
   - [Guidance in identity assertions](https://github.com/sigstore/cosign/issues/2804)
 - Complete the [architecture docs draft](https://docs.google.com/document/d/1-OccxmZwkZZItrfOnO3RP8gku6nRbtJpth1mSW3U1Cc/edit) and port it to GitHub.
+- Support language clients (TODO: add concrete goals for these).
 
 **Medium-term (quarters).**
 
