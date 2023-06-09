@@ -14,7 +14,7 @@ constitutes a "supported" client).
 
 ## Projects
 
-sig-clients doesn't exclusively own most of these, but you may be interested:
+sig-clients doesn't own these, but these are relevant projects:
 
 - [protobuf-specs](https://github.com/sigstore/protobuf-specs): cross-client data formats, especially for serializing 
 - [sigstore-conformance](https://github.com/sigstore/sigstore-conformance): conformance test suites for clients
@@ -27,6 +27,7 @@ sig-clients doesn't exclusively own most of these, but you may be interested:
   - Ruby: [sigstore-ruby](https://github.com/sigstore/sigstore-ruby)
   - Rust: [sigstore-rs](https://github.com/sigstore/sigstore-rs)
 - [policy-controller](https://github.com/sigstore/policy-controller)
+- [Enterprise Contract](https://github.com/enterprise-contract)
 
 ## Get Involved
 
