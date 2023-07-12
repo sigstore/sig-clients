@@ -56,7 +56,7 @@ We're still sorting this out for SIGs. Come back soon!
 
 You'll need to join [sigstore-dev@googlegroups.com](https://groups.google.com/g/sigstore-dev) for access to many of these (to prevent spam).
 
-Last updated: 2023-04-17. See also [project-wide roadmap](https://github.com/sigstore/community/blob/main/ROADMAP.md) (possibly out-of-date).
+Last updated: 2023-07-07. See also [project-wide roadmap](https://github.com/sigstore/community/blob/main/ROADMAP.md) (possibly out-of-date).
 
 *This currently represents @znewman01's brain dump; at the next client meeting, we'll work through this.*
 
@@ -74,7 +74,8 @@ it's in-scope for the client). Document expectations for clients.
   - [Clearer verification options](https://github.com/sigstore/cosign/issues/2648)
   - [Guidance in identity assertions](https://github.com/sigstore/cosign/issues/2804)
 - Complete the [architecture docs draft](https://docs.google.com/document/d/1-OccxmZwkZZItrfOnO3RP8gku6nRbtJpth1mSW3U1Cc/edit) and port it to GitHub.
-- Support language clients (TODO: add concrete goals for these).
+- Support language clients.
+  - Criteria for client maturity [#5](https://github.com/sigstore/sig-clients/issues/5)
 
 **Medium-term (quarters).**
 
