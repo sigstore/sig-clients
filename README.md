@@ -106,4 +106,4 @@ Goal: make Cosign more flexible
 ## Security
 
 Should you discover any security issues, please refer to Sigstore's [security
-process](https://github.com/sigstore/community/blob/main/SECURITY.md)
+process](https://github.com/sigstore/sig-clients/security/policy).
