@@ -50,7 +50,7 @@ We welcome contributions from all! Great ways to help include:
 
 ## Governence
 
-We're still sorting this out for SIGs. Come back soon!
+This Sig is co-chaired by [Fredrik Skogman]([url](https://github.com/kommendorkapten)) and [Appu Goundan]([url](https://github.com/loosebazooka))
 
 ## Roadmap
 
