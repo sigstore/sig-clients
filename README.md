@@ -18,7 +18,7 @@ sig-clients doesn't own these, but these are relevant projects:
 
 - [protobuf-specs](https://github.com/sigstore/protobuf-specs): cross-client data formats, especially for serializing 
 - [sigstore-conformance](https://github.com/sigstore/sigstore-conformance): conformance test suites for clients
-- [architecture-docs](https://github.com/sigstore/architecture-docs]): specifications
+- [architecture-docs](https://github.com/sigstore/architecture-docs): specifications
 - Sigstore client implementations in various languages:
   - Go: [sigstore-go](https://github.com/sigstore/sigstore-go), [Cosign](https://github.com/sigstore/cosign), [Gitsign](https://github.com/sigstore/gitsign),
   - Java: [sigstore-java](https://github.com/sigstore/sigstore-java)
