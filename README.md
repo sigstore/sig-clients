@@ -54,54 +54,7 @@ This Sig is co-chaired by [Fredrik Skogman]([url](https://github.com/kommendorka
 
 ## Roadmap
 
-You'll need to join [sigstore-dev@googlegroups.com](https://groups.google.com/g/sigstore-dev) for access to many of these (to prevent spam).
-
-Last updated: 2023-07-07. See also [project-wide roadmap](https://github.com/sigstore/community/blob/main/ROADMAP.md) (possibly out-of-date).
-
-*This currently represents @znewman01's brain dump; at the next client meeting, we'll work through this.*
-
-**Short-term (months).**
-
-Goal: focusing on Cosign in the near-term as the most widely-used client. If
-other clients like what we're doing there, they can emulate it (assuming that
-it's in-scope for the client). Document expectations for clients.
-
-- Tech debt: Cosign refactor, port innards to sigstore-go ([cosign#2462](https://github.com/sigstore/cosign/issues/2462), [cosign#844](https://github.com/sigstore/cosign/issues/844))
-- Bundles ([cosign#2131](https://github.com/sigstore/cosign/issues/2131))
-- Policy enhancements: improve Cosign UX
-  - [Sugar for common OIDC providers](https://github.com/sigstore/cosign/issues/2838)
-  - [New GitHub claims](https://github.com/sigstore/cosign/issues/2719)
-  - [Clearer verification options](https://github.com/sigstore/cosign/issues/2648)
-  - [Guidance in identity assertions](https://github.com/sigstore/cosign/issues/2804)
-- Complete the [architecture docs draft](https://docs.google.com/document/d/1-OccxmZwkZZItrfOnO3RP8gku6nRbtJpth1mSW3U1Cc/edit) and port it to GitHub.
-- Support language clients.
-  - Criteria for client maturity [#5](https://github.com/sigstore/sig-clients/issues/5)
-
-**Medium-term (quarters).**
-
-Goal: make Cosign more flexible 
-
-- BYO PKI, private deployments
-- [cosign#2858](https://github.com/sigstore/cosign/issues/2858), [cosign#2568](https://github.com/sigstore/cosign/issues/2568), [cosign#2632](https://github.com/sigstore/cosign/issues/2632), [cosign#2630](https://github.com/sigstore/cosign/issues/2630), [cosign#2808](https://github.com/sigstore/cosign/issues/2808), [cosign#2255](https://github.com/sigstore/cosign/issues/2255)
-- Policy enhancements
-  - Declarative verification
-    - Along the lines of [Hammurabi](https://hammurabi.jameslarisch.com/) for web PKI, [sigstore-go#35](https://github.com/sigstore/sigstore-go/issues/35), [sigstore-python#299](https://github.com/sigstore/sigstore-python/pull/299).
-    - Possibly using Rego/CUE (something datalog-inspired)
-  - Fancier policies
-    - Unification between Cosign and policy-controller
-    - e.g., SBOM https://github.com/sigstore/cosign/issues/1954
-- Testing: [conformance test suite](https://github.com/sigstore/sigstore-conformance)
-  - "End-to-end" tests: hook up to [clients](https://github.com/sigstore/sigstore-conformance/issues/61)
-  - ["Fuzz tests"](https://github.com/sigstore/sigstore-conformance/issues/64)
-
-**Long-term (eventually).**
-
-- [Plumbing and porcelain](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain) model for Cosign.
-- Policy: sophisticated verification policies.
-  - Integration with [TUF](https://theupdateframework.com/)/[in-toto](https://in-toto.io/).
-- [Can we avoid writing every new Sigstore client from scratch?](https://docs.google.com/document/d/1xrnvZr9o7utL8xtgT-heKVWAk0aOagjg2YB5Onarzxk/edit)
-- <Your ideas here!>
-
+This has moved to the [client section of the community roadmap](https://github.com/sigstore/community/blob/main/ROADMAP.md#client-sdks).
 
 ## Security
 
